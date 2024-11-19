@@ -1,0 +1,68 @@
+header{
+    background: linear-gradient(150deg, rgb(23, 0, 196), rgb(74, 4, 57), rgb(0, 0, 0), rgb(0, 0, 0));
+    display: flex;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.menu{
+    margin: 3px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+a {
+    display: inherit;
+    text-decoration: none;
+}
+
+
+.fill{
+    flex: 1;
+    margin: 3px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+body {
+    background-color: black;
+}
+
+.body {
+    background-color: black;
+    padding-left: 40px;
+}
+
+h1 {
+    font-family: Kanit;
+    font-size: 100px;
+    color: #EEEEEE;
+    display:inline;
+}
+
+h2 {
+    font-family: Kanit;
+    font-size: 50px;
+    color: #EEEEEE;
+    display:inline;
+}
+
+h3 {
+    font-family: Kanit;
+    font-size: 40px;
+    color: #EEEEEE;
+}
+
+p {
+    font-family: Kanit;
+    font-size: 18px;
+    color: #EEEEEE;
+}
+
+.title {
+    padding: 10px;
+}
+
+.links{
+    display: flex;
+}
