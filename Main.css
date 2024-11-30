@@ -51,6 +51,8 @@ h3 {
     font-family: Kanit;
     font-size: 40px;
     color: #EEEEEE;
+    border-bottom: 5px solid;
+    display: inline-block;
 }
 
 p {
@@ -65,4 +67,9 @@ p {
 
 .links{
     display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-inline: 40px;
 }
