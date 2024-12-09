@@ -1,3 +1,8 @@
+.remove-scrolling { 
+    height: 100%; 
+    overflow: hidden; 
+  } 
+
 
 .precision {
     display:inline;
@@ -34,13 +39,25 @@
 
 .presentation_projet{
     margin-left: 100px;
-    display: inline-table;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .illustration{
-    max-width: 25%;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+button{
     border: 2px solid;
     border-color: #FFF;
     margin: 10px;
     padding: 5px;
+    background: none;
+    cursor: zoom-in;
+    width: 20%;
 }
