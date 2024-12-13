@@ -1,14 +1,18 @@
 header{
     background: linear-gradient(150deg, rgb(23, 0, 196), rgb(74, 4, 57), rgb(0, 0, 0), rgb(0, 0, 0));
     display: flex;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 3px;
 }
 
 .menu{
     margin: 3px;
     background-color: black;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+
+.menu{
+    padding-inline : 10px;
 }
 
 a {
